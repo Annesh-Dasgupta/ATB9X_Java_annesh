@@ -6,7 +6,7 @@ public class Lab004 {
         int b = 5;
         int c = 3;
 
-        int d = (a > b) ? a : (b > c) ? b : (a > c) ? a : c;
-        System.out.println(d);
+        int d = (a > b && a > c) ? a : (b > c) ? b : c;
+        System.out.println("Biggest number is: " + d);
     }
 }
