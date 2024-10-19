@@ -45,7 +45,7 @@ public class Lab010_switch_month {
                 System.out.println("December");
                 break;
             default:
-                System.out.println("Unknown");
+                System.out.println("Unknown no");
                 break;
         }
     }
